@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             3: { image: '../page1/img/484583772_964669898980272_2655126191281890828_n.jpg', title: 'Casual Coastal Breeze Hat', description: 'A breathable bucket hat.', price: 15.00 },
             4: { image: '../page1/img/9.jpg', title: 'Canvas Vibes Tee', description: 'An artistic graphic tee.', price: 20.00 },
             5: { image: '../page1/img/11.jpg', title: 'Summit Peak Cap', description: 'An adventure-ready cap.', price: 10.00 },
-            6: { image: './page1/img/485222418_1334096377856276_5617491258941503076_n.jpg', title: 'Essential Drift Tee', description: 'A versatile t-shirt.', price: 20.00 },
+            6: { image: '../page1/img/485222418_1334096377856276_5617491258941503076_n.jpg', title: 'Essential Drift Tee', description: 'A versatile t-shirt.', price: 20.00 },
             7: { image: '../page1/img/485263056_1367500694274282_7486039691021990825_n.jpg', title: 'Velvet Aura Fragrance', description: 'A luxurious perfume.', price: 25.00 },
             8: { image: '../page1/img/Diesel C-seymon Distressed Denim Cap - Blue.jpg', title: 'Trailblaze Diesel Cap', description: 'A bold cap.', price: 15.00 },
             9: { image: '../page1/img/download (5).jpg', title: 'Fusion Spine Tee', description: 'A dynamic graphic tee.', price: 30.00 },
