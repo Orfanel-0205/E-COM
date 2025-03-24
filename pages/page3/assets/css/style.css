@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    transition: background-color 0.3s ease; /* Header background transition */
+  }
+  
+  header:hover {
+    background-color: #444; /* Darker background on hover */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1.5rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative; /* For underline animation */
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ddd;
+  }
+  
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Distance of underline from text */
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  nav ul li a:hover::after {
+    transform: scaleX(1); /* Show underline on hover */
+  }
+.checkout-page {
+    padding: 2rem;
+  }
+  
+  .checkout-page h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .checkout-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .checkout-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .checkout-item:last-child {
+    border-bottom: none;
+  }
+  
+  .checkout-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .checkout-item p {
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .view-order-button {
+    padding: 0.5rem 1rem;
+    background-color: #eee;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-order-button:hover {
+    background-color: #ddd;
+  }
+  
