@@ -20,9 +20,9 @@
   </header>
 
   <main class="checkout-page">
-    <h2>Checkout History</h2>
+    <h2>Checkout</h2>
     <ul class="checkout-list">
-      <!-- Example Checkout Item -->
+      <!-- Checkout items will be dynamically added here -->
       <li class="checkout-item">
         <h3>Order #12345</h3>
         <p>Date: 2023-12-10</p>
@@ -30,13 +30,23 @@
         <p>Total: $70.00</p>
         <button class="view-order-button">View Order Details</button>
       </li>
-      <!-- Add more checkout items here -->
+       <li class="checkout-item">
+        <h3>Order #12346</h3>
+        <p>Date: 2023-12-11</p>
+        <p>Items: 1</p>
+        <p>Total: $30.00</p>
+        <button class="view-order-button">View Order Details</button>
+      </li>
     </ul>
+    <div class="checkout-summary">
+        <p>Total: $<span id="checkout-total">0.00</span></p>
+        <!-- You can add more checkout summary details here -->
+    </div>
   </main>
 
   <footer>
     <p>&copy; 2023 Aesthetic Apparel</p>
   </footer>
-  <script src="checkout.js"></script>
+  <script src="../page3/assets/js/scripts.js"></script>
 </body>
 </html>
